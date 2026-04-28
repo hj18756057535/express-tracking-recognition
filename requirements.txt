@@ -1,0 +1,18 @@
+# 快递单号自动识别填充工具依赖包
+
+# Excel文件处理
+openpyxl>=3.0.9
+
+# 旧版Excel文件支持（可选）
+xlrd>=2.0.1
+
+# GUI框架（Python标准库，无需安装）
+# tkinter
+
+# 其他标准库依赖（无需安装）
+# json
+# re
+# pathlib
+# logging
+# dataclasses
+# typing

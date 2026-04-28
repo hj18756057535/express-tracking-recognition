@@ -1,0 +1,13 @@
+{
+  "rule_database_path": "data/courier_rules.json",
+  "log_level": "INFO",
+  "log_file_path": "logs/app.log",
+  "ui": {
+    "show_progress": true,
+    "progress_update_interval": 10
+  },
+  "processing": {
+    "batch_size": 100,
+    "max_processing_time": 10
+  }
+}
