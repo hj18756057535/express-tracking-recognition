@@ -128,3 +128,10 @@ MIT License
 ## 贡献
 
 欢迎提交Issue和Pull Request来改进这个项目。
+
+打包命令
+```
+
+pyinstaller --onefile --windowed --name="express_tracking_tool" --distpath dist express_tracking_tool/main.py 2>&1 | Select-String -Pattern "(ERROR|completed successfully|Build complete)"
+
+```
